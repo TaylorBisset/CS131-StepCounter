@@ -1,5 +1,9 @@
 /*
-A pedometer treats walking 1 step as walking 2.5 feet. Define a function named FeetToSteps that takes a double as a parameter, representing the number of feet walked, and returns an integer that represents the number of steps walked. Then, write a main program that reads the number of feet walked as an input, calls function FeetToSteps() with the input as an argument, and outputs the number of steps.
+A pedometer treats walking 1 step as walking 2.5 feet. 
+Define a function named FeetToSteps that takes a double as a parameter, 
+representing the number of feet walked, and returns an integer that represents the number of steps walked. 
+Then, write a main program that reads the number of feet walked as an input, calls function FeetToSteps() 
+with the input as an argument, and outputs the number of steps.
 
 Use floating-point arithmetic to perform the conversion.
 
@@ -17,10 +21,17 @@ int FeetToSteps(double userFeet)
 #include <iomanip>
 using namespace std;
 
-/* Define your function here */
+double userFeet;
 
-int main() {
-	/* Type your code here */
+int FeetToSteps(double userFeet)
+{
+	int steps = (userFeet / 2.5);
+	return steps;
+}
+
+
+int main() 
+{
 
 	return 0;
 }
