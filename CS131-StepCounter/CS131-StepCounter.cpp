@@ -32,6 +32,7 @@ int FeetToSteps(double userFeet)
 
 int main() 
 {
-
+	cin >> userFeet;
+	cout << FeetToSteps(userFeet) << endl;
 	return 0;
 }
