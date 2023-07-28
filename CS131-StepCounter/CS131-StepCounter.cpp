@@ -1,6 +1,11 @@
 #include <iostream>
+#include <iomanip>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+/* Define your function here */
+
+int main() {
+	/* Type your code here */
+
+	return 0;
 }
